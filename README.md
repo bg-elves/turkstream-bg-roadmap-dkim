@@ -85,9 +85,9 @@ The domain key used to verify this email is also included in this project, but o
 
 Yes, that's a problem. Other DKIM verification tools and libraries can grab the key from a file, so you could try that ([like this one](https://gist.github.com/stevecheckoway/51e63d4c269bd2be4a50a3b39645a77c)).
 
-Our script includes a parametrized script, that can handle a manual TXT record, instead of getting the one directly from DNS. It is demonstrated in the main `verify.js` file.
+Our work includes a parametrized lib, that can handle a manual TXT record, instead of getting the one directly from DNS. It is demonstrated in the main `verify.js` file.
 
-But you are more then welcome to try it usind real DNS! What we did instead was set up BIND9 as DNS resolver, then configured
+But you are more then welcome to try it using real DNS! What we did instead was set up BIND9 as DNS resolver, then configured
 a "Response Policy Zone" (RPZ) with this one record changed. This means
 that we'll provide live resolution for any other names, but overwrite
 the correct response (of "not found") with the old key that we retrieved.
@@ -102,7 +102,7 @@ to have been "Evgeny Zobnin".
 
 But the fact that this email is also part of a leak, containing more than 5000 emails, many of which contain passports, bank cards, travel invoices including flying tickets, private house schemas, many private videos and photos does tell us a lot about who was operating those accounts. It is in fact Evgeny Zobnin.
 
-We also have more proofs in that matter, but at this point, we are unable to present them. Anyone looking for more clues, is more than welcome to look into the original leak or follow the channels of InformNapalm nad CyberResistance.
+We also have more proofs in that matter, but at this point, we are unable to present them. Anyone looking for more clues, is more than welcome to look into the original leak or follow the channels of InformNapalm and CyberResistance.
 
 ### "How did you see that secret metadata, in a debugger?"
 
@@ -122,7 +122,7 @@ Note: that link is also yet another source verifying an old GMail public _domain
 
 The email was initially retrieved by CyberResistance and later shared by InformNapalm. We have found the email file, after looking into the leaked documents, already made available publicly, upon request by journalists.
 
-During our analysis, we have established communication with both CyberResistance and InformNapalm, who gave us insights of the process being used to retrieve the inbox contents, which we wont share. Based on those traces we performed a series of lab experiments on the content, validating not just the crypto signature, but also to verify the exact steps that Evgeny Zobnin performed, when he sent himself this email. What type of device and software for managing his inbox and much more, that describes in prices detail how did this document got into the public space.
+During our analysis, we have established communication with both CyberResistance and InformNapalm, who gave us insights of the process being used to retrieve the inbox contents, which we wont share. Based on those traces we performed a series of lab experiments on the content, validating not just the crypto signature, but also to verify the exact steps that Evgeny Zobnin performed, when he sent himself this email. What type of device and software for managing his inbox and much more, that describes in precise details how did this document got into the public space.
 
 # Sources and credits:
 
