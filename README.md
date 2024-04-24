@@ -1,6 +1,9 @@
 # turkstream-bg-roadmap-dkim
 
-This project paper includes a nodejs lib, used to validate that the document "ROAD MAP", found as attachment in one of the leaked emails from Evgeny Zobnin's mailbox, is 100% authentic and its content had not been altered in any way. We know that, because 7 years ago, Gmail signed the email source with their DKIM cryptographic keys, when it was sent.
+This project paper includes a nodejs library, used to authenticate emails' authenticity 
+by validating their DKIM signature against Google's mail server.
+
+Using this process it has been proven that "TURKISH STREAM ROAD MAP" document, found as attachment to this email, is 100% authentic and has been sent 7 years ago from Evgeny Zobnin's mailbox.
 
 ## Setup and run
 
