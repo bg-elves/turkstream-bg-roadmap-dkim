@@ -25,7 +25,7 @@ node verify.js
 
 ## Context
 
-In the beginning of 2024, Ukrainian hacktivists from CyberResistance were able to break into the [email inbox of Evgeny Zobnin](https://ordilo.org/damp-e-mail-zhzobninmail-ru-yakyi-nalezhyt-verbuvalnyk/). The information about the leak was spread by InformNapalm. At the end of February 2024, a journalist from InformNapalm contacted BG Elves and asked for help with decrypting a bunch of password protected documents, found as attachment in the emails, where `Bulgaria` was mentioned. Over the last month, BG Elves, together with many investigative journalists worked hard to sort and analyze all the information found in the leak. A special website for the purpose of this analysis was developed - [https://turkstream.exposed/](https://turkstream.exposed/) where all the information about the document "ROAD MAP" and following events can be traced. The website also includes links to sources and passwords to decrypt the included attachment files.
+In the beginning of 2024, Ukrainian hacktivists from CyberResistance were able to break into the [email inbox of Evgeny Zobnin](https://ordilo.org/damp-e-mail-zhzobninmail-ru-yakyi-nalezhyt-verbuvalnyk/). The information about the leak was spread by [InformNapalm](https://informnapalm.org/). At the end of February 2024, a journalist from [InformNapalm](https://informnapalm.org/) contacted BG Elves and asked for help with decrypting a bunch of password protected documents, found as attachment in the emails, where `Bulgaria` was mentioned. Over the last month, BG Elves, together with many investigative journalists worked hard to sort and analyze all the information found in the leak. A special website for the purpose of this analysis was developed - [https://turkstream.exposed/](https://turkstream.exposed/) where all the information about the document "ROAD MAP" and following events can be traced. The website also includes links to sources and passwords to decrypt the included attachment files.
 
 ## Intro
 
@@ -105,7 +105,7 @@ to have been "Evgeny Zobnin".
 
 But the fact that this email is also part of a leak, containing more than 5000 emails, many of which contain passports, bank cards, travel invoices including flying tickets, private house schemas, many private videos and photos does tell us a lot about who was operating those accounts. It is in fact Evgeny Zobnin.
 
-We also have more proofs in that matter, but at this point, we are unable to present them. Anyone looking for more clues, is more than welcome to look into the original leak or follow the channels of InformNapalm and CyberResistance.
+We also have more proofs in that matter, but at this point, we are unable to present them. Anyone looking for more clues, is more than welcome to look into the original leak or follow the channels of [InformNapalm](https://informnapalm.org/) and CyberResistance.
 
 ### "How did you see that secret metadata, in a debugger?"
 
@@ -123,13 +123,13 @@ Note: that link is also yet another source verifying an old GMail public _domain
 
 ### "Did you get this email from the laptop? or was it sent to you?"
 
-The email was initially retrieved by CyberResistance and later shared by InformNapalm. We have found the email file, after looking into the leaked documents, already made available publicly, upon request by journalists.
+The email was initially retrieved by CyberResistance and later shared by [InformNapalm](https://informnapalm.org/). We have found the email file, after looking into the leaked documents, already made available publicly, upon request by journalists.
 
-During our analysis, we have established communication with both CyberResistance and InformNapalm, who gave us insights of the process being used to retrieve the inbox contents, which we wont share. Based on those traces we performed a series of lab experiments on the content, validating not just the crypto signature, but also to verify the exact steps that Evgeny Zobnin performed, when he sent himself this email. What type of device and software for managing his inbox and much more, that describes in precise details how did this document got into the public space.
+During our analysis, we have established communication with both CyberResistance and [InformNapalm](https://informnapalm.org/), who gave us insights of the process being used to retrieve the inbox contents, which we wont share. Based on those traces we performed a series of lab experiments on the content, validating not just the crypto signature, but also to verify the exact steps that Evgeny Zobnin performed, when he sent himself this email. What type of device and software for managing his inbox and much more, that describes in precise details how did this document got into the public space.
 
 # Sources and credits:
 
-This paper was made possible mainly because of the work of CyberResistance and InformNapalm, who shared the leaked emails.
+This paper was made possible mainly because of the work of CyberResistance and [InformNapalm](https://informnapalm.org/), who shared the leaked emails.
 
 Many thanks to [momchilmg](https://github.com/momchilmg/verify-dkim-signature) and [fakedob](https://github.com/fakedob) who conducted the analysis, performed all lab experiments and finally were able to validate the DKIM signature and authored this work.
 
@@ -137,4 +137,4 @@ Thanks to [postalsys](https://github.com/postalsys) for their work on [mailauth]
 
 Also we want to mention dr. Tristan Jenkinson, whose work [Nothing’s DKIMpossible – Manually Verifying DKIM, a CTF Solution, and Implications](https://ediscoverychannel.com/2021/02/28/nothings-dkimpossible-manually-verifying-dkim-a-ctf-solution-and-implications/) gave us a lot of inspiration and ideas on how to perform the validation process.
 
-# Слава україні и да живее България!
+# Слава Україні и да живее България!
