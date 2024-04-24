@@ -3,6 +3,10 @@
     "version": "1.0.0",
     "description": "TURKSTREAM BG ROADMAP DKIM SIGNATURE VALIDATE | Node.js",
     "main": "verify.js",
+    "repository": {
+        "type": "GitHub",
+        "url": "https://github.com/bg-elves/turkstream-bg-roadmap-dkim"
+    },
     "dependencies": {
         "joi": "^17.13.0",
         "libmime": "^5.3.5",
