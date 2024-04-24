@@ -1,0 +1,21 @@
+{
+    "name": "turkstream-bg-roadmap-dkim-validate",
+    "version": "1.0.0",
+    "description": "TURKSTREAM BG ROADMAP DKIM SIGNATURE VALIDATE | Node.js",
+    "main": "verify.js",
+    "dependencies": {
+        "joi": "^17.13.0",
+        "libmime": "^5.3.5",
+        "nodemailer": "^6.9.13",
+        "psl": "^1.9.0",
+        "punycode": "^2.3.1",
+        "uuid": "^9.0.1"
+    },
+    "author": {
+        "name": "BG Elves",
+        "url": "https://turkstream.exposed"
+    },
+    "engines": {
+        "node": ">=16.0.0"
+    }
+}
